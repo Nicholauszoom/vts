@@ -1,0 +1,8 @@
+CREATE TABLE device (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    device VARCHAR(50) NOT NULL,
+    brand VARCHAR(50) NOT NULL,
+    IMEI VARCHAR(50) NOT NULL,
+    created_at INT(11) NOT NULL,
+    updated_at INT(11)NOT NULL
+);
